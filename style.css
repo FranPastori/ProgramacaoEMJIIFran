@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EF197B;
+}
+header {
+    
+    background-color:#FFDD6C;
+    padding: 20px 0;
+}
+.logo{
+    height:300px;
+    width: 300px;
+}
+nav {
+    position: absolute;
+    top: 100px;
+    right:0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #EF197B;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto
+}
+
+.banner {
+    width: 100%;
+}
+main {
+    list-style: none;
+    background-color:#EF197B;
+    ;
+    text-decoration: none;
+    padding: 25px;
+}
+p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+h1,h3{
+    font-size: 22px;
+    color: #EF197B;
+}
+
+h2 {
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+#olamundo{
+    color: black;
+    text-align: center;
+    font-size: 90px;
+    background-color: #FF80BA;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+}
+
+.fundo{
+        text-align: center ;
+       padding: 20; 
+       margin: 20px;
+       font-style: italic;
+}
+.itens {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.itens li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid; #000000;
+    border-radius: 10px;
+    background: linear-gradient(#FFDD6C, #EF197B);
+}
+.itens li:hover {
+    border: 3px solid #FFDD6C;
+    background: linear-gradient(#EF197B, #FFDD6C);
+}
+.itens li:active {
+    border-color: #FFDD6C;
+}
+.itens li:hover h2 {
+    font-size: 30px;
+}
+.imagemlateral{
+    height: 200px;
+    width: 200px;
+    border: black solid 2px;
+}
+
+
+
+
+
+
+.competencias{
+    padding: 20px;
+}
+.habilidades{
+    padding: 20px;
+}
+.divisao{
+    text-align:justify;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #FF80BA;
+    margin: 20px;
+    border-radius: 20px;
+}
+.momentos {
+    background-color: #FFDD6C;
+     text-align:justify;
+    margin: 10px;
+    font-style: italic;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.elementoexterno{
+   margin: 1em auto;
+    padding: 20px;
+    width : 614px;
+    height: 414px
+}
+.Titulo-centralizado{
+     text-align:center;
+
+}
+
+/* Contato*/
+
+form {
+    margin: 20px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 10px;
+    padding: 10px 25px 10px 25px;
+    width: 50%;
+    font-size: 20px;
+}
+form label {
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding: 10px 25px 10px 25px;
+
+}
+.enviar{
+    background-color: #FFDD6C;
+    display: block;
+    margin: 10px;
+    padding: 10px 25px 10px 25px;
+    width: 50%;
+    font-size: 20px;
+}
+
